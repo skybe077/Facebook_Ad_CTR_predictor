@@ -25,10 +25,21 @@ Break down the ad into its components, feature engineer the heck out of them, an
 Given the constraints of our available dataset, that's all we could do.   
 
 The following image is the final solution outline based on that principle.
-![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/soln_outline.png "Logo Title Text 1")
+![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/soln_outline.png "Facebook Ad CTR Predictor Solution")
+
+It's quite straightforward. Extract from Facebook using Supermetrics; Clean and transform components of the dataset; Merge them all together; Then run it through the predictor. 
+
+This is the overall workflow. A bit more detail on what went where.  
+![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/workflow.png "Facebook Ad CTR Predictor Workflow")
+
+For easy reference, I've created the following markdowns to go through each part:
+1. Feature Extraction: Ad Image, Words, Target Parameters 
+2. Predicting CTR
+3. Did it work? 
 
 ## Specs  
-Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects
+Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects (link)
+Tools: Supermetrics, Python, KNIME
 
 ## Useful Links 
 1.	Deep CTR Prediction in Display Advertising – DNN to work with sparse images
