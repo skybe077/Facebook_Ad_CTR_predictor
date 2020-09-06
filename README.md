@@ -21,7 +21,7 @@ As much as I'd like to copy and use the models, it's not going to work. I simply
 
 ## How It Works 
 
-
+![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/soln_outline.png "Logo Title Text 1")
 
 ## Sepcs 
 510 Interests, 203 Work Positions, and 52 Image Objects
