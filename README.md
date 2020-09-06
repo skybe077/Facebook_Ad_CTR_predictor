@@ -17,14 +17,18 @@ TLDR:
 2. The features are pushed into Logistic Regression to predict if an ad is clicked on or otherwise by a user
 3. These approaches rely on getting access to user data and ad logs (most companies won't have access to it) 
 
-As much as I'd like to copy and use the models, it's not going to work. I simply will never have access to user / ad-level data that these researchers have. But there are things that we can reuse -- particularly in feature extraction. 
+As much as I'd like to copy and use the models, it's not going to work. I simply will never have access to user-level data that these researchers have. But there are things that we can reuse -- particularly in feature extraction. 
 
 ## How It Works 
+If we don't have user-level datasets, then what can we do? What if we did it on an ad level?
+Break down the ad into its components, feature engineer the heck out of them, and then run it through a linear predictor? 
+Given the constraints of our available dataset, that's all we could do.   
 
+The following image is the final solution outline based on that principle.
 ![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/soln_outline.png "Logo Title Text 1")
 
-## Sepcs 
-510 Interests, 203 Work Positions, and 52 Image Objects
+## Specs  
+Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects
 
 ## Useful Links 
 1.	Deep CTR Prediction in Display Advertising – DNN to work with sparse images
