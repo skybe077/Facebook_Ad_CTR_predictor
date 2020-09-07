@@ -1,6 +1,6 @@
 # Facebook Ad CTR Predictor 
 Predict the Click-Through-Rate of a Facebook ad based on audience targeting parameters, Ad creatives (Image + Copy). 
-Currently R2 is 0.493. Depending on threshold (+/- $0.60), this predictor was useful for 60 to 70% of the time.   
+Currently R2 is 0.493. Based on the current Cos per click threshold (+/- $0.60), this predictor was useful for 60 to 70% of the time.   
 
 
 ## Motivations  
