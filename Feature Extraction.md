@@ -28,3 +28,5 @@ Of course, now we know better.
 
 ## Making Sense of Words 
 
+![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/Words.JPG "Make sense of words")
+
