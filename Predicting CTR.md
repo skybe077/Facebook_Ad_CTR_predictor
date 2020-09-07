@@ -33,7 +33,10 @@ While the R2 isn’t great. However, during our test and validation phase, we go
 5.	The performance of this predictor system is at R2 (0.49) & RMSE ($3.063). However, on speaking with the marketing team, they were actually OK if the system was able to predict CPCs within an offset of +/- $0.60. As such the model works about 65% of the time. 
 
 ## Last thoughts
-Fascinating. I do not expect to compete with the ad platforms, which no doubt makes use of far greater volumes of features and ads to build far more accurate prediction models, this project has certainly shed some light on how marketers can perhaps “game” Facebook to get the most out of their marketing dollars. 
+Fascinating. 
+
+I do not expect to compete with the ad platforms, which no doubt makes use of far greater volumes of features and ads to build far more accurate prediction models, this project has certainly shed some light on how marketers can perhaps “game” Facebook to get the most out of their marketing dollars.
+
 The challenges faced in this project – trialing of models, many features to crunch – simply highlights that takes great effort and imagination to prepare the dataset for use. More importantly, simplicity rules over mixed models. It certainly drives home the message that features matter, and 80% of our time is spent on data wrangling and munging! 
 
 << [Back to mainpage](https://github.com/skybe077/Facebook_Ad_CTR_predictor)
