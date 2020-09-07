@@ -33,9 +33,9 @@ This is the overall workflow. A bit more detail on what went where.
 ![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/workflow.png "Facebook Ad CTR Predictor Workflow")
 
 For easy reference, I've created the following markdowns to go through each part:
-1. Feature Extraction: Ad Image, Words, Target Parameters 
-2. Predicting CTR
-3. Did it work? 
+1. [Feature Extraction: Ad Image, Words, Target Parameters](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Feature%20Extraction.md) 
+2. [Predicting CTR](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Predicting%20CTR.md)
+3. [Usage & Ideas](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Use%20Cases.MD) 
 
 ## Specs  
 Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects (link)
