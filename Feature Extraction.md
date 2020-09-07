@@ -23,8 +23,8 @@ Of course, now we know better.
 2. Perhaps add on an [emotion detection](https://azure.microsoft.com/en-us/blog/face-and-emotion-detection/) function. 
 
 **Code source**
-Function: detectObject_image (Functions.Features.encode_dims.py)
-Called: line 110 (01 - Clean_Transform.py)
+* Function: detectObject_image (Functions.Features.encode_dims.py)
+* Called: line 110 (01 - Clean_Transform.py)
 
 ## Making Sense of Words 
 
