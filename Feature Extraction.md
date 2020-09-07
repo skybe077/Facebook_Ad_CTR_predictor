@@ -13,7 +13,7 @@ So, for each of the components, I'll outline how it was done with big ol' graphi
 
 Intuitively and annecdotely, images make an ad. They're the first hook for an unwitting browser: stop mindless scroll to click on the ad. The question that we grappled with: What is it about an ad image that mattered to these people? 
 
-To be honest, we didn't know. We only had vague answers like "People tend to click more on ads with faces."; "It's got to be localised to the region -- Asian faces for Asian places." Logically, we came to a conclusion -- maybe it's the items that matter in the image. Hence we used !.[Image.AI's] (http://imageai.org/) YOLOv3 model for object detection. The choice was simply to try trained image recognition models; instead of creating our own CNN models. 
+To be honest, we didn't know. We only had vague answers like "People tend to click more on ads with faces."; "It's got to be localised to the region -- Asian faces for Asian places." Logically, we came to a conclusion -- maybe it's the items that matter in the image. Hence we used !.[Image.AI's] (http://imageai.org/) REsNet model for object detection. The choice was simply to try trained image recognition models; instead of creating our own CNN models. 
 
 Of course, now we know better.
 ![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/Images.JPG "Image.AI Image Extraction")
@@ -21,4 +21,10 @@ Of course, now we know better.
 **Improvements to make**
 1. Instead of recognising objects; try using [Saliency Maps](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/saliency%20maps.jpg)
 2. Perhaps add on an [emotion detection](https://azure.microsoft.com/en-us/blog/face-and-emotion-detection/) function. 
+
+**Code source**
+Function: detectObject_image (Functions.Features.encode_dims.py)
+Called: line 110 (01 - Clean_Transform.py)
+
+## Making Sense of Words 
 
