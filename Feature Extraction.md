@@ -19,10 +19,6 @@ Of course, now we know better.
 ![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/Images.JPG "Image.AI Image Extraction")
 
 **Improvements to make**
-1. Instead of recognising objects; try using Saliency Maps 
-
-![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/saliency%20maps.jpg)
-src: [Deep CTR Prediction in Display Advertising – DNN to work with sparse images](https://www.researchgate.net/publication/308364214_Deep_CTR_Prediction_in_Display_Advertising)
-
+1. Instead of recognising objects; try using [Saliency Maps](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/saliency%20maps.jpg)
 2. Perhaps add on an [emotion detection](https://azure.microsoft.com/en-us/blog/face-and-emotion-detection/) function. 
 
