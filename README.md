@@ -34,15 +34,14 @@ This is the overall workflow. A bit more detail on what went where.
 
 For easy reference, I've created the following markdowns to go through each part:
 1. [Feature Extraction: Ad Image, Words, Target Parameters](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Feature%20Extraction.md) 
-2. [Predicting CTR](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Predicting%20CTR.md)
+2. [Predicting CTR using XGBoost & KNIME](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Predicting%20CTR.md)
 3. [Usage & Ideas](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Use%20Cases.MD) 
 
 ## Specs  
-Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects (link)
-Tools: Supermetrics, Python, KNIME
+* Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects
+* Tools: Supermetrics, Python, KNIME
 
 ## Useful Links 
 1.	[Deep CTR Prediction in Display Advertising – DNN to work with sparse images](https://www.researchgate.net/publication/308364214_Deep_CTR_Prediction_in_Display_Advertising)
-
 2.	[Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf)
 
