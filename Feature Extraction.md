@@ -60,8 +60,10 @@ As you can see, the extractions & meaning making aren't quite difficult -- just 
 
 As we move onto the next part, [Predicting Facebook Ad CTR](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Predicting%20CTR.md), you'll see how we used a tool (not just Python) to help us predict ad performance. 
 
-**Dataset:** [FB Dataset](https://github.com/skybe077/Facebook_Ad_CTR_predictor/tree/master/Datasets)
+**Dataset:** [FB Dataset.rar](https://github.com/skybe077/Facebook_Ad_CTR_predictor/tree/master/Datasets)
+
 Specs: 2,998 rows X 5,155 columns of extracted and transformed features 
+
 Results: Cost per unique link click	| CTR (link click-through rate)
 
 The dataset contains
