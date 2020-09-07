@@ -42,8 +42,7 @@ Dataset contains 510 Interests, 203 Work Positions, and 52 Image Objects (link)
 Tools: Supermetrics, Python, KNIME
 
 ## Useful Links 
-1.	Deep CTR Prediction in Display Advertising – DNN to work with sparse images
-https://www.researchgate.net/publication/308364214_Deep_CTR_Prediction_in_Display_Advertising
+!.[1.	Deep CTR Prediction in Display Advertising – DNN to work with sparse images] (https://www.researchgate.net/publication/308364214_Deep_CTR_Prediction_in_Display_Advertising)
 
 2.	Practical Lessons from Predicting Clicks on Ads at Facebook
 https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf
