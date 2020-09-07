@@ -27,6 +27,15 @@ Of course, now we know better.
 * Called: line 110 (01 - Clean_Transform.py)
 
 ## Making Sense of Words 
+Ads aren't just made up of images. There are words too. In keeping with the principle of keeping it simple *(and getting it out quickly)*. We opted to look at individual words (1 token length); remove punctuation, formating and urls; and use TF-IDF -- where less frequent words are given more importance. Brand names, titles and such are kept in play -- annecdotal accounts suggest that audiences pay attention to brand names and titles.   
 
 ![alt text](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/images/Words.JPG "Make sense of words")
 
+**Improvements to make**
+1. Make a distinction between headlines and body text. Weight the  The former is commonly the first thing that people see. 
+2. Remove stopwords. Not just the very light touch that we've used   
+3. Score ads based on their sentiment (see this article on [adpresso](https://adespresso.com/blog/facebook-ad-copy-sentiment-analysis/))
+
+**Code source**
+* Function: detectObject_image (Functions.Features.ad_body_nlp.py)
+* Called: line 67 to 80 (01 - Clean_Transform.py)
