@@ -39,4 +39,4 @@ I do not expect to compete with the ad platforms, which no doubt makes use of fa
 
 The challenges faced in this project – trialing of models, many features to crunch – simply highlights that takes great effort and imagination to prepare the dataset for use. More importantly, simplicity rules over mixed models. It certainly drives home the message that features matter, and 80% of our time is spent on data wrangling and munging! 
 
-<< [Back to mainpage](https://github.com/skybe077/Facebook_Ad_CTR_predictor)
+<< [Back to mainpage](https://github.com/skybe077/Facebook_Ad_CTR_predictor) || [Use Cases](https://github.com/skybe077/Facebook_Ad_CTR_predictor/blob/master/Use%20Cases.MD) >>
